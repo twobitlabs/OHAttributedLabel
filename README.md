@@ -84,6 +84,7 @@ There are two possible methods to include these classes in your project:
 2. Manually:
     * Include the `OHAttributedLabel.xcodeproj` project in your Xcode4 workspace
     * Add the `libOHAttributedLabel.a` library **and the `CoreText.framework`** to your "Link binary with libraries" Build Phase.
+    * Add OHAttributedLabel to your "Target Dependencies" Build Phase.
     * Add the relative path to the OHAttributedLabel headers in your "User Header Search Path" Build Setting
     * Add the `-ObjC` flag in the "Other Linker Flags" Build Setting if not present already
 
